@@ -1,4 +1,6 @@
 class DockingStation
+  # @bikes_available = bikes_available
+
   def release_bike
 
   end
@@ -8,6 +10,6 @@ class DockingStation
   end 
 
   def view_bikes
-    
+
   end
 end
