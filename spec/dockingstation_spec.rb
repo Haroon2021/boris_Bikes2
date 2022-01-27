@@ -9,6 +9,7 @@ describe DockingStation do
       it "Releases a bike" do
         bike = docking_station.release_bike
         expect(bike.working?).to eq true
+        
       end
     end
     
